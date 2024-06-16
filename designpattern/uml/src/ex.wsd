@@ -1,0 +1,17 @@
+@startuml
+interface Target {
+    + request(): void
+}
+
+class Adaptee {
+    + specificRequest(): void
+}
+
+class Adapter implements Target {
+    - adaptee: Adaptee
+    + Adapter(adaptee: Adaptee)
+    + request(): void
+}
+Adaptee --o Adapter
+
+@enduml

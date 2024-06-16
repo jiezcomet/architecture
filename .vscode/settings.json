@@ -1,0 +1,9 @@
+{
+    "plantuml.diagramsRoot": "designpattern/uml/src",
+    "plantuml.exportOutDir": "designpattern/uml/out",
+    "plantuml.exportConcurrency": 10,
+    "plantuml.exportFormat": "png",
+    "plantuml.render": "PlantUMLServer",
+    "plantuml.server": "http://localhost:9080/",
+    "markdown-preview-enhanced.plantumlServer": "http://localhost:9080/svg/",
+}
